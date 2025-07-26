@@ -1,42 +1,22 @@
 # ⚔️ Battles
 
-This folder contains my solutions to different CSS Battle competitions from [CSSBattle.dev](https://cssbattle.dev).
-
-Each subfolder represents a separate battle or themed set of targets, and inside each you’ll find my HTML and CSS code aiming for the shortest and cleanest solution possible.
+This folder contains my CSS Battle solutions organized by official battles or themed challenges from [CSSBattle.dev](https://cssbattle.dev).
 
 ---
 
 ## 📦 Folder structure
-battles/
-├── battle-01-simpler-shapes/
-│ ├── target-01/
-│ │ ├── index.html
-│ │ └── style.css
-│ ├── target-02/
-│ └── ...
-├── battle-02-clip-path-art/
-│ ├── target-07/
-│ └── ...
-...
+| Folder                       | Description                                                    |
+| ---------------------------- | -------------------------------------------------------------- |
+| `battle-01-simpler-shapes/`  | Solutions for targets in Battle #01: Simpler Shapes            |
+| `battle-02-clip-path-art/`   | Solutions for targets in Battle #02: Clip Path Art             |
+| `battle-03-curves-and-lines/`| Solutions for targets in Battle #03: Curves and Lines          |
+| ...                          | More battles as I solve them                                   |
 
 ---
 
-## 🌱 Why I'm doing this
+## 🌱 Purpose
+- Practice solving grouped CSS challenges
+- Learn advanced CSS tricks unique to each battle
+- Track improvement by comparing different battles
 
-- Improve my CSS skills by solving visual challenges
-- Practice writing creative, minimal CSS and HTML
-- Track my progress and scores over time
-- Build a fun portfolio of CSS art and experiments
-
----
-
-## ✏️ About CSS Battle
-
-[CSSBattle.dev](https://cssbattle.dev) is an online game where you reproduce target images using as little HTML and CSS code as possible.  
-It’s a great way to learn CSS tricks, discover creative approaches, and get better at visual problem-solving.
-
----
-
-## ⭐ Explore the folders above to see my solutions, compare scores, and maybe find some inspiration for your own CSS practice!
-
-> Thanks for checking out my CSS Battle practice! 🚀
+> Explore each battle folder to see individual target solutions!
