@@ -18,3 +18,48 @@ It's a fun and challenging way to get better at:
 
 ## 🗂 **Repository Structure**
 Each folder or file is named by target number or name, e.g.:
+css-battles/
+├── README.md                ← main readme describing what this repo is
+├── daily-targets/           ← My daily CSS Battle target solutions
+│   ├── README.md            ← explains daily targets folder
+│   ├── target-01/
+│   │   ├── index.html
+│   │   └── style.css
+│   ├── target-02/
+│   │   ├── index.html
+│   │   └── style.css
+│   └── target-03/
+│       ├── index.html
+│       └── style.css
+├── battles/                 ← solutions grouped by specific battles
+│   ├── README.md            ← explains battles folder
+│   ├── battle-01-simpler-shapes/
+│   │   ├── target-01/
+│   │   │   ├── index.html
+│   │   │   └── style.css
+│   │   ├── target-02/
+│   │   │   ├── index.html
+│   │   │   └── style.css
+│   │   └── target-03/
+│   │       ├── index.html
+│   │       └── style.css
+│   └── battle-02-clip-path-art/
+│       ├── target-04/
+│       │   ├── index.html
+│       │   └── style.css
+│       └── target-05/
+│           ├── index.html
+│           └── style.css
+
+---
+
+## 🌱 **Why I'm doing this**
+- Practice daily consistency
+- Learn advanced CSS tricks
+- Build a fun portfolio of creative code
+
+---
+
+## ⭐ **Check out my solutions and feel free to fork or share feedback!**
+
+> Thanks for visiting! 🚀
