@@ -19,8 +19,6 @@ battles/
 │ └── ...
 ...
 
-*(Replace or update this structure to match your actual folders as you add more battles.)*
-
 ---
 
 ## 🌱 Why I'm doing this
