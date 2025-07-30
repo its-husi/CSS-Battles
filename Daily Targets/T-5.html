@@ -1,0 +1,50 @@
+<style>
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #243d83;
+  }
+  .box {
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    background: #6592cf;
+  }
+  .box1 {
+    margin: 60px 40px 0 0;
+  }
+  .box2 {
+    margin: 0 0 60px 40px;
+  }
+  .box::after,
+  .box::before {
+    content: "";
+    position: absolute;
+    background: #fff;
+  }
+  .box1::after {
+    top: 120px;
+    width: 61px;
+    height: 12px;
+  }
+  .box1::before {
+    left: -12px;
+    top: 60px;
+    width: 12px;
+    height: 72px;
+  }
+  .box2::after {
+    top: 48px;
+    width: 72px; 
+    height: 12px;
+  }
+  .box2::before {
+    left: 60px;
+    top: 60px;
+    width: 12px;
+    height: 60px;
+  }
+</style>
+<div class="box box1"></div>
+<div class="box box2"></div>

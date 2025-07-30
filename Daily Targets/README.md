@@ -5,7 +5,7 @@ This folder contains my daily CSS Battle solutions, each solving a single target
 ---
 
 ## 📦 Folder structure
-| Folder             | Description                                      |
+| Files             | Description                                      |
 | ----------------- | ------------------------------------------------ |
 | `target-01/`      | Solution for target #01                          |
 | `target-02/`      | Solution for target #02                          |
