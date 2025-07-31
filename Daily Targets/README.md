@@ -1,6 +1,6 @@
 # 🗓️ Daily Targets
 
-This folder contains my daily CSS Battle solutions, each solving a single target from [CSSBattle.dev](https://cssbattle.dev).
+This folder contains my daily CSS Battle solutions, which are date wise as i started pushing them from 7/31/25 so the greater the number of the file the latest the solution is, each solving a single target from [CSSBattle.dev](https://cssbattle.dev).
 
 ---
 
