@@ -1,0 +1,44 @@
+<style>
+  body{
+    display: flex;
+    align-items: center;
+    background:#FADE8B;
+    justify-content: center;
+  }
+  .alien {
+    gap: 25px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-bottom: 30px;
+    border-radius: 100%;
+    background: #48BF7D;
+  }
+  .eye{
+    left: 23px;
+    top: 37px;
+    z-index: 1;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    border-radius: 100%;
+    background: #FFFFFF;
+  }
+  .alien::after,.alien::before{
+    content:'';
+    top: 50%;
+    left: 37%;
+    width:140px;
+    height: 40px;
+    border-radius: 30px;
+    position: absolute;
+    background: #48BF7D;
+  }
+  .alien::before{
+    top: 56%;
+  }
+</style>
+<div class="alien">
+<div class="eye"></div>
+<div class="eye"></div>
+</div>
