@@ -1,0 +1,63 @@
+<style>
+  body{
+    width: 100%;
+    display: grid;
+    padding: 37px 24px;
+    background: #C05F6A;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+  }
+  .box {
+    width: 70px;
+    height: 30px;
+    background: #F2EAA8;
+  }
+  .s{
+    left: 33px;
+    position: relative;
+  }
+  .b{
+    left: -34px;
+    position: relative; 
+  }
+
+.box.b:nth-of-type(n+4) {
+  width: 50px;
+}
+
+.box.s:nth-of-type(n+4) {
+  width: 50px;
+  left: 53px;
+}
+
+.box.b:nth-of-type(n+8) {
+  width: 30px;
+}
+
+.box.s:nth-of-type(n+6) {
+  width: 30px;
+  left: 73px;
+}
+
+.box.b:nth-of-type(n+12) {
+  width: 10px;
+}
+
+.box.s:nth-of-type(n+8) {
+  width: 10px;
+  left: 93px;
+}
+  
+</style>
+<div class="box s"></div>
+<div class="box"></div>
+<div class="box b"></div>
+<div class="box s"></div>
+<div class="box"></div>
+<div class="box b"></div>
+<div class="box s"></div>
+<div class="box"></div>
+<div class="box b"></div>
+<div class="box s"></div>
+<div class="box"></div>
+<div class="box b"></div>

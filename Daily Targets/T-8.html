@@ -1,0 +1,64 @@
+<style>
+  body{
+    display: flex;
+    background: #EEEEEE;
+    justify-content: center;
+  }
+  .eye{
+    top: 37px;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    border-radius: 100%;
+    background: #439E6B;
+  }
+  .led{
+    width: 50px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    background: #EEEEEE;
+    justify-content: center;
+  }
+  .ball{
+    width: 20px;
+    height: 22px;
+    bottom: 12px;
+    position: relative;
+    background: #000000;
+    border-radius: 100%;
+  }
+  .frog {
+    top: 70px;
+    width: 100px;
+    height: 160px;
+    position: absolute;
+    background: #246541;
+  }
+  .frog::before,.frog::after{
+    top: 130px;
+    content: '';
+    width: 16px;
+    height: 26px;
+    position: absolute;
+    background: #EEEEEE;
+    border: 14px solid #439E6B;
+  }
+  .frog::before{
+    right: 100px;
+    border-right: none;
+    border-bottom: none;
+  }
+  .frog::after{
+    left: 100px;
+    border-left: none;
+    border-bottom: none;
+  }
+</style>
+<div class="eye"><div class="led"><div class="ball"></div></div></div>
+<div class="eye"><div class="led"><div class="ball"></div></div></div>
+<div class="frog"></div>
