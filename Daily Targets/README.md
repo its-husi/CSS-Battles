@@ -5,11 +5,10 @@ This folder contains my daily CSS Battle solutions, which are date wise as i sta
 ---
 
 ## 📦 Folder structure
-| Files             | Description                                      |
+| Folders           | Description                                      |
 | ----------------- | ------------------------------------------------ |
-| `target-01/`      | Solution for target #01                          |
-| `target-02/`      | Solution for target #02                          |
-| `target-03/`      | Solution for target #03                          |
+| `Aug.../`         | Solution for target in August                    |
+| `July.../`        | Solution for target in July                      |
 | ...               | More daily targets as I add them                 |
 
 ---
