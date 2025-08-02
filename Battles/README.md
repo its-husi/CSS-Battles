@@ -7,9 +7,9 @@ This folder contains my CSS Battle solutions organized by official battles or th
 ## 📦 Folder structure
 | Folder                       | Description                                                    |
 | ---------------------------- | -------------------------------------------------------------- |
-| `battle-01-simpler-shapes/`  | Solutions for targets in Battle #01: Simpler Shapes            |
-| `battle-02-clip-path-art/`   | Solutions for targets in Battle #02: Clip Path Art             |
-| `battle-03-curves-and-lines/`| Solutions for targets in Battle #03: Curves and Lines          |
+| `battle#1/`                  | Solutions for targets in Battle #01:                           |
+| `battle#2/`                  | Solutions for targets in Battle #02:                           |
+| `battle#3/`                  | Solutions for targets in Battle #03:                           |
 | ...                          | More battles as I solve them                                   |
 
 ---
