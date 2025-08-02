@@ -1,0 +1,56 @@
+<style>
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #62306d;
+  }
+  a {
+    width: 140;
+    height: 100;
+    background: #f7ec7d;
+  }
+  b {
+    width: 60;
+    height: 100;
+    background: #e38f66;
+  }
+  a::before,
+  a::after,
+  b::after,
+  b::before,
+  c,
+  c::after {
+    content: "";
+    position: absolute;
+    width: 36;
+    height: 36;
+    background: #62306d;
+    border-radius: 50%;
+  }
+  c,
+  c::after {
+    width: 20;
+    height: 20;
+  }
+  c {
+    transform: translate(200%, 250%);
+  }
+  c::after {
+    top: -100;
+  }
+  b::before {
+    transform: translate(110%, -45%);
+  }
+  b::after {
+    left: 70%;
+    bottom: 28%;
+  }
+  a::before {
+    transform: translate(-45%, -45%);
+  }
+  a::after {
+    transform: translate(-45%, 222%);
+  }
+</style>
+<a></a><c></c><b></b>
