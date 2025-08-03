@@ -1,0 +1,37 @@
+<style>
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #243d83;
+  }
+  a {
+    width: 80;
+    height: 80;
+    background: #243d83;
+    position: relative;
+    border: 20px solid #fff;
+  }
+  a:nth-child(1):after {
+    content: "";
+    position: absolute;
+    top: 60;
+    left: 60;
+    width: 20;
+    height: 20;
+    border: 20px solid #243d83;
+    border-top: 0;
+    border-left: 0;
+  }
+  a:nth-child(1) {
+    top: -30;
+    left: 30;
+    z-index: 1;
+  }
+  a:nth-child(2) {
+    top: 30;
+    left: -30;
+  }
+  </style>
+  
+  <a></a><a></a>
