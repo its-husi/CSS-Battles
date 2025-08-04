@@ -2,6 +2,8 @@
 
 This folder contains my CSS Battle solutions organized by official battles or themed challenges from [CSSBattle.dev](https://cssbattle.dev).
 
+Note (Tip) --> Remove every space character from the code to get higher score.
+
 ---
 
 ## 📦 Folder structure
