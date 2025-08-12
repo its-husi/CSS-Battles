@@ -1,0 +1,30 @@
+<style>
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #7e6293;
+  }
+  b {
+    width: 31;
+    height: 200;
+    background: #fff;
+    transform: skew(-15deg) translate(-3%);
+  }
+  b:before,
+  b:after {
+    content: "";
+    width: 30;
+    height: 60;
+    position: absolute;
+    background: #7e6293;
+    border-radius: 50px;
+    border: 30px solid#fff;
+  }
+  b:after {
+    transform: skew(15deg) translate(-133%);
+  }
+  b:before {
+    transform: skew(15deg) translate(45%, 67%);
+  }</style>
+  <b>
