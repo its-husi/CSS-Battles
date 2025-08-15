@@ -1,0 +1,40 @@
+<style>
+  body {
+    display: grid;
+    place-items: center;
+    background: #ffeff2;
+  }
+  b {
+    display: grid;
+    place-items: center;
+    width: 360;
+    height: 160;
+    border-radius: 100 100 0 0;
+    background: #4f77ff;
+  }
+  a {
+    position: relative;
+    width: 160;
+    height: 100;
+    background: #ffeff2;
+  }
+  a:after,
+  a:before {
+    content: "";
+    position: absolute;
+    width: 50;
+    height: 80;
+    background: #4f77ff;
+  }
+  a:before {
+    border-radius: 100 0 0;
+    transform: translate(-90%);
+  }
+  a:after {
+    border-radius: 0 100 0 0;
+    transform: translate(90%);
+  }</style>
+  <b><a></a></b>
+
+<!-- Short Code for more score -->
+<!-- <style>body{display:grid;place-items:center;background:#FFEFF2}b{display:grid;place-items:center;width:360;height:160;border-radius:100 100 0 0;background:#4F77FF}a{position:relative;width:160;height:100;background:#FFEFF2}a:after,a:before{content:"";position:absolute;width:50;height:80;background:#4F77FF}a:before{border-radius:100 0 0;transform:translate(-90%)}a:after{border-radius:0 100 0 0;transform:translate(90%)}</style><b><a>  -->
