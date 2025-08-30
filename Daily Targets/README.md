@@ -2,7 +2,7 @@
 
 This folder contains my daily CSS Battle solutions, which are date wise as i started pushing them from 7/31/25 so the greater the number of the file the latest the solution is, each solving a single target from [CSSBattle.dev](https://cssbattle.dev).
 
-Note (Tip) --> Remove every space character from the code to get higher score.
+Note (Tip) --> Remove every space character from the code to get higher score. Its minify the code.
 
 ---
 
