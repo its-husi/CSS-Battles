@@ -1,0 +1,39 @@
+<p>
+    <style>
+        & {
+            margin: 42 67;
+            background: #8877DC
+        }
+
+        p {
+            width: 250px;
+            height: 60px;
+            background: #192865
+        }
+
+        p:before,
+        p:after {
+            content: '';
+            left: 25;
+            width: 30;
+            height: 200;
+            background: #192865;
+            position: absolute
+        }
+
+        p:before {
+            box-shadow: 320px 0 #192865
+        }
+
+        p:after {
+            width: 60;
+            height: 70;
+            top: 70;
+            left: 75;
+            z-index: -1;
+            background: #FFE08A;
+            color: #FFE08A;
+            border-radius: 2in;
+            box-shadow: 95px 0, 190px 0
+        }
+    </style>
